@@ -1,0 +1,423 @@
+locale:English_United States.1252
+language:English (United States)
+language id:1252
+Version:Feb 26 2019 19:36:26
+Creation Time:2023-01-02 23:08:08
+File Time:2020-02-26 21:44:50
+==========================================
+2023-01-02 23:10:15
+==========================================
+Release
+==========================================
+System Version:6.2.19041.2364
+Windows 8 or Greater
+Processor=X86-64 Architecture=AMD64  Win32  (WOW64) 
+==============Memory status============================
+37 percent of memory is in use.
+16G bytes total of physical memory.
+10G bytes free of physical memory.
+==============virtual memory status============================
+2048M bytes total of virtual memory.
+1926M bytes free of virtual memory.
+=====================Processor=====================
+Number of NUMA nodes: 1
+Number of physical processor packages: 1
+Number of processor cores: 4
+Number of logical processors: 8
+Number of processor L1/L2/L3 caches: 8/4/1
+=====================CPU=====================
+0.Intel(R) Core(TM) i7-10510U CPU @ 1.80GHz
+1.Intel(R) Core(TM) i7-10510U CPU @ 1.80GHz
+2.Intel(R) Core(TM) i7-10510U CPU @ 1.80GHz
+3.Intel(R) Core(TM) i7-10510U CPU @ 1.80GHz
+4.Intel(R) Core(TM) i7-10510U CPU @ 1.80GHz
+5.Intel(R) Core(TM) i7-10510U CPU @ 1.80GHz
+6.Intel(R) Core(TM) i7-10510U CPU @ 1.80GHz
+7.Intel(R) Core(TM) i7-10510U CPU @ 1.80GHz
+GenuineIntel
+Intel(R) Core(TM) i7-10510U CPU @ 1.80GHz
+ADX
+AES
+AVX
+AVX2
+BMI1
+BMI2
+CLFSH
+CMPXCHG16B
+CX8
+ERMS
+F16C
+FMA
+FSGSBASE
+FXSR
+INVPCID
+LAHF
+LZCNT
+MMX
+MONITOR
+MOVBE
+MSR
+OSXSAVE
+PCLMULQDQ
+POPCNT
+RDRAND
+RDSEED
+RDTSCP
+SEP
+SSE
+SSE2
+SSE3
+SSE4.1
+SSE4.2
+SSSE3
+XSAVE
+==========================================
+
+23:10:15.280 [Msg]  ===================
+23:10:15.280 [Msg]  Screen: 1920x1080
+23:10:15.280 [Msg]  IsDPIAware=1
+23:10:15.280 [Msg]  DpiAwareness=2
+23:10:15.280 [Msg]  ===================
+
+
+instance of Win32_VideoController
+{
+	AdapterCompatibility = "Intel Corporation";
+	AdapterDACType = "Internal";
+	AdapterRAM = 1073741824;
+	Availability = 3;
+	Caption = "Intel(R) UHD Graphics";
+	ConfigManagerErrorCode = 0;
+	ConfigManagerUserConfig = FALSE;
+	CreationClassName = "Win32_VideoController";
+	CurrentBitsPerPixel = 32;
+	CurrentHorizontalResolution = 1920;
+	CurrentNumberOfColors = "4294967296";
+	CurrentNumberOfColumns = 0;
+	CurrentNumberOfRows = 0;
+	CurrentRefreshRate = 59;
+	CurrentScanMode = 4;
+	CurrentVerticalResolution = 1080;
+	Description = "Intel(R) UHD Graphics";
+	DeviceID = "VideoController1";
+	DitherType = 0;
+	DriverDate = "20210205000000.000000-000";
+	DriverVersion = "27.20.100.9268";
+	InfFilename = "oem1.inf";
+	InfSection = "iCML_w10_DS";
+	InstalledDisplayDrivers = "C:\\WINDOWS\\System32\\DriverStore\\FileRepository\\iigd_dch.inf_amd64_044fd6f0c2ae28a8\\igdumdim64.dll,C:\\WINDOWS\\System32\\DriverStore\\FileRepository\\iigd_dch.inf_amd64_044fd6f0c2ae28a8\\igd10iumd64.dll,C:\\WINDOWS\\System32\\DriverStore\\FileRepository\\iigd_dch.inf_amd64_044fd6f0c2ae28a8\\igd10iumd64.dll,C:\\WINDOWS\\System32\\DriverStore\\FileRepository\\iigd_dch.inf_amd64_044fd6f0c2ae28a8\\igd12umd64.dll";
+	MaxRefreshRate = 59;
+	MinRefreshRate = 59;
+	Monochrome = FALSE;
+	Name = "Intel(R) UHD Graphics";
+	PNPDeviceID = "PCI\\VEN_8086&DEV_9B41&SUBSYS_170F1043&REV_02\\3&11583659&0&10";
+	Status = "OK";
+	SystemCreationClassName = "Win32_ComputerSystem";
+	SystemName = "DESKTOP-ALKQBCM";
+	VideoArchitecture = 5;
+	VideoMemoryType = 2;
+	VideoModeDescription = "1920 x 1080 x 4294967296 colors";
+	VideoProcessor = "Intel(R) UHD Graphics Family";
+};
+
+
+instance of Win32_VideoController
+{
+	AdapterCompatibility = "NVIDIA";
+	AdapterDACType = "Integrated RAMDAC";
+	AdapterRAM = 2147483648;
+	Availability = 3;
+	Caption = "NVIDIA GeForce MX250";
+	ConfigManagerErrorCode = 0;
+	ConfigManagerUserConfig = FALSE;
+	CreationClassName = "Win32_VideoController";
+	CurrentBitsPerPixel = 32;
+	CurrentHorizontalResolution = 3840;
+	CurrentNumberOfColors = "4294967296";
+	CurrentNumberOfColumns = 0;
+	CurrentNumberOfRows = 0;
+	CurrentRefreshRate = 29;
+	CurrentScanMode = 4;
+	CurrentVerticalResolution = 2160;
+	Description = "NVIDIA GeForce MX250";
+	DeviceID = "VideoController2";
+	DitherType = 0;
+	DriverDate = "20210506000000.000000-000";
+	DriverVersion = "27.21.14.6259";
+	InfFilename = "oem54.inf";
+	InfSection = "Section012";
+	InstalledDisplayDrivers = "C:\\WINDOWS\\System32\\DriverStore\\FileRepository\\nvam.inf_amd64_61df758291bf519e\\nvldumdx.dll,C:\\WINDOWS\\System32\\DriverStore\\FileRepository\\nvam.inf_amd64_61df758291bf519e\\nvldumdx.dll,C:\\WINDOWS\\System32\\DriverStore\\FileRepository\\nvam.inf_amd64_61df758291bf519e\\nvldumdx.dll,C:\\WINDOWS\\System32\\DriverStore\\FileRepository\\nvam.inf_amd64_61df758291bf519e\\nvldumdx.dll";
+	MaxRefreshRate = 0;
+	Monochrome = FALSE;
+	Name = "NVIDIA GeForce MX250";
+	PNPDeviceID = "PCI\\VEN_10DE&DEV_1D52&SUBSYS_170F1043&REV_A1\\4&3A8D4B0E&0&00E0";
+	Status = "OK";
+	SystemCreationClassName = "Win32_ComputerSystem";
+	SystemName = "DESKTOP-ALKQBCM";
+	VideoArchitecture = 5;
+	VideoMemoryType = 2;
+	VideoModeDescription = "3840 x 2160 x 4294967296 colors";
+	VideoProcessor = "GeForce MX250";
+};
+
+
+instance of Win32_DesktopMonitor
+{
+	Availability = 8;
+	Caption = "Generic PnP Monitor";
+	ConfigManagerErrorCode = 0;
+	ConfigManagerUserConfig = FALSE;
+	CreationClassName = "Win32_DesktopMonitor";
+	Description = "Generic PnP Monitor";
+	DeviceID = "DesktopMonitor1";
+	MonitorManufacturer = "(Standard monitor types)";
+	MonitorType = "Generic PnP Monitor";
+	Name = "Generic PnP Monitor";
+	PixelsPerXLogicalInch = 144;
+	PixelsPerYLogicalInch = 144;
+	PNPDeviceID = "DISPLAY\\NCP0035\\4&F8F4A9E&0&UID265988";
+	Status = "OK";
+	SystemCreationClassName = "Win32_ComputerSystem";
+	SystemName = "DESKTOP-ALKQBCM";
+};
+
+
+instance of Win32_DesktopMonitor
+{
+	Availability = 3;
+	Caption = "Default Monitor";
+	CreationClassName = "Win32_DesktopMonitor";
+	Description = "Default Monitor";
+	DeviceID = "DesktopMonitor2";
+	MonitorType = "Default Monitor";
+	Name = "Default Monitor";
+	PixelsPerXLogicalInch = 144;
+	PixelsPerYLogicalInch = 144;
+	ScreenHeight = 1080;
+	ScreenWidth = 1920;
+	Status = "OK";
+	SystemCreationClassName = "Win32_ComputerSystem";
+	SystemName = "DESKTOP-ALKQBCM";
+};
+
+==============Adapter Count:2====================
+\\.\DISPLAY1: igdumdim32.dll(Intel(R) UHD Graphics)
+	1920x1080(59) 22
+	Monitor:{0x0-1920x1080}(1920x1080), Work:{0x0-1920x1020}(1920x1020), Flags=1, Device=\\.\DISPLAY1
+\\.\DISPLAY2: igdumdim32.dll(Intel(R) UHD Graphics)
+	3840x2160(29) 22
+	Monitor:{1920x0-5760x2160}(3840x2160), Work:{1920x0-5760x2100}(3840x2100), Flags=0, Device=\\.\DISPLAY2
+==================================
+23:10:15.549 [Msg]  ---------Intel---------
+23:10:15.950 [Msg]  IMPL: MFX_IMPL_HARDWARE MFX_IMPL_VIA_D3D9
+23:10:15.950 [Msg]  Intel Encoder Version: 1.34
+23:10:15.952 [Msg]  Intel Codec:H264
+23:10:16.459 [Msg]  Intel Encoder: H264, OK
+23:10:16.476 [Msg]  Intel Codec:HEVC
+23:10:16.875 [Msg]  Intel Encoder: HEVC, OK
+23:10:16.895 [Msg]  Intel Codec:MPEG2
+23:10:17.468 [Msg]  Intel Encoder: MPEG2, OK
+23:10:17.489 [Msg]  ---------AMD2---------
+23:10:17.489 [ERR]  AMF Failed to initialize
+23:10:17.489 [Msg]  ---------AMD---------
+23:10:17.518 [Msg]  DX9: List of adapters:
+23:10:17.550 [Msg]  DX9: List of adapters:
+23:10:17.561 [ERR]  FAIL
+23:10:17.562 [Msg]  ---------NVENC 8---------
+23:10:18.893 [Msg]  Device Count 1
+23:10:18.893 [Msg]  0.GeForce MX250
+	Capability version:6.1
+	Total memory:2GB
+cuDeviceGet=0
+cuCtxCreate
+cuCtxPopCurrent
+Initialize
+23:10:18.956 [ERR]  Failed to LoadLibrary
+23:10:18.956 [ERR]  Failed to Initialize:NV_ENC_ERR_OUT_OF_MEMORY
+23:10:18.956 [Msg]  ---------NVENC 5---------
+23:10:18.956 [Msg]  Device Count 1
+23:10:18.956 [Msg]  0.GeForce MX250
+	Capability version:6.1
+	Total memory:2GB
+cuDeviceGet=0
+cuCtxCreate
+cuCtxPopCurrent
+Initialize
+23:10:19.012 [ERR]  Failed to LoadLibrary
+23:10:19.012 [ERR]  Failed to Initialize:NV_ENC_ERR_OUT_OF_MEMORY
+23:10:19.022 [Msg]  Find camera device:Index=0;Name=USB2.0 HD UVC WebCam;DisplayName=@device:pnp:\\?\usb#vid_13d3&pid_56dd&mi_00#6&3124c791&0&0000#{65e8773d-8f56-11d0-a3b9-00a0c9223196}\global
+23:10:19.162 [Msg]  ===========================Audio Render Device===========================
+23:10:19.165 [Msg]  [0]:
+	Device name:ASUS VP28U (Intel(R) Display Audio)
+	Form factor:HDMI
+	ID:{0.0.0.00000000}.{2117bc40-8fab-4707-beb1-750d9b72c59c}
+	State:0x1(ACTIVE)
+23:10:19.166 [Msg]  [1]:
+	Device name:Speakers (Realtek(R) Audio)
+	Form factor:Speakers
+	ID:{0.0.0.00000000}.{6aa93e3c-a5bc-4327-be11-b7da89239065}
+	State:0x1(ACTIVE)
+23:10:19.166 [Msg]  ===========================Audio Capture Device===========================
+23:10:19.166 [Msg]  [0]:
+	Device name:Microphone (Realtek(R) Audio)
+	Form factor:Microphone
+	ID:{0.0.1.00000000}.{92b8e968-19cd-43f1-a01c-73deb8737767}
+	State:0x1(ACTIVE)
+23:10:19.166 [Msg]  ===========================Audio Default Devices===========================
+23:10:19.167 [Msg]  Render Device:Speakers (Realtek(R) Audio)
+23:10:19.175 [Msg]  Render Device Format:FormatTag=Ext(IEEE_FLOAT), 48000 Hz, 2 Channels, 32 Bits; AvgBytesPerSec=384000, BlockAlign=8, Extra size=22, SubFormat=3, wValidBitsPerSample=32,dwChannelMask=0x3
+23:10:19.176 [Msg]  Capture Device:Microphone (Realtek(R) Audio)
+23:10:19.177 [Msg]  Capture Device Format:FormatTag=Ext(IEEE_FLOAT), 48000 Hz, 2 Channels, 32 Bits; AvgBytesPerSec=384000, BlockAlign=8, Extra size=22, SubFormat=3, wValidBitsPerSample=32,dwChannelMask=0x3
+23:10:20.746 [Msg]  Targets features supported by Direct3D 12.1 including shader model 5.
+23:10:20.762 [Msg]  msvcrt.dll
+23:10:20.762 [Msg]  ntdll.dll
+23:10:20.762 [Msg]  KERNEL32.dll
+23:10:20.762 [Msg]  USER32.dll
+23:10:20.762 [Msg]  GDI32.dll
+23:10:20.762 [Msg]  ADVAPI32.dll
+23:10:20.762 [Msg]  WTSAPI32.dll
+23:10:20.762 [Msg]  gdiplus.dll
+23:10:20.762 [Msg]  d3d9.dll
+23:10:20.762 [ERR]  654D4450<->730E5F30
+23:10:20.762 [Msg]  dwmapi.dll
+23:10:20.762 [ERR]  FAILED !!
+23:10:21.096 [Msg]  Use Display 0, Rect={0x0-1920x1080}
+23:10:21.196 [Msg]  Use Display 0, Rect={0x0-1920x1080}
+23:10:21.361 [Msg]  Use Display 0, Rect={0x0-1920x1080}
+23:11:23.864 [Msg]  Use Display 0, Rect={0x0-1920x1080}
+23:11:23.864 [Msg]  Use Display 0, Rect={0x0-1920x1080}
+23:11:23.869 [Msg]  Screen Crop ...
+23:11:23.869 [Msg]  [082603A8]CScreenCropObject Create
+23:11:23.893 [Msg]  [082603A8]CScreenCropObject Destroy
+23:11:23.900 [Msg]  [082603A8]CScreenCropObject Delete
+23:11:23.900 [Msg]  Screen Crop ...
+23:11:23.900 [Msg]  [0825FB10]CScreenCropObject Create
+23:11:23.910 [Msg]  [0825FB10]CScreenCropObject Destroy
+23:11:23.918 [Msg]  [0825FB10]CScreenCropObject Delete
+23:11:23.918 [Msg]  Screen Crop ...
+23:11:23.918 [Msg]  [0825FB10]CScreenCropObject Create
+23:12:02.696 [Msg]  [0825FB10]CScreenCropObject Destroy
+23:12:02.701 [Msg]  [0825FB10]CScreenCropObject Delete
+23:12:03.949 [Msg]  Screen Crop ...
+23:12:03.949 [Msg]  [0825FB10]CScreenCropObject Create
+23:12:18.879 [Msg]  [0825FB10]CScreenCropObject Destroy
+23:12:18.881 [Msg]  [0825FB10]CScreenCropObject Delete
+23:12:18.881 [Msg]  Screen Selection ...
+23:12:18.893 [Msg]  hwnd=00010102, Rect=0x1020-1920x1080(1920x60), szText=, szClass=Shell_TrayWnd
+23:12:18.894 [Msg]  hwnd=00010156, Rect=1920x2100-5760x2160(3840x60), szText=, szClass=Shell_SecondaryTrayWnd
+23:12:18.897 [Msg]  hwnd=0001023A, Rect=1114x159-1920x937(806x778), szText=Sticky Notes, szClass=ApplicationFrameWindow
+23:12:18.899 [Msg]  hwnd=00060776, Rect=1909x-11-5771x2111(3862x2122), szText=??????? ?? ???? ??? ????? AnyMP4 Screen Recorder — Mozilla Firefox, szClass=MozillaWindowClass
+23:12:18.899 [Msg]  hwnd=00010290, Rect=3019x519-3969x1443(950x924), szText=Sticky Notes, szClass=ApplicationFrameWindow
+23:12:18.902 [Msg]  hwnd=0001025E, Rect=841x159-1647x937(806x778), szText=Sticky Notes, szClass=ApplicationFrameWindow
+23:12:18.905 [Msg]  hwnd=0001017C, Rect=0x0-5760x2160(5760x2160), szText=Program Manager, szClass=Progman
+23:12:25.640 [Msg]  Screen Crop ...
+23:12:25.640 [Msg]  [08260560]CScreenCropObject Create
+23:12:42.962 [Msg]  [08260560]CScreenCropObject Destroy
+23:12:42.964 [Msg]  [08260560]CScreenCropObject Delete
+23:13:31.035 [Msg]  Screen Crop ...
+23:13:31.035 [Msg]  [0825FB10]CScreenCropObject Create
+23:13:56.029 [Msg]  Delete temporary file from:C:\Users\Sotoon\AppData\Local\Temp\Screen Recorder
+23:13:56.041 [Msg]  Static box ...
+23:13:56.041 [Msg]  [12EBB540]CStaticBox Create
+23:13:56.058 [Msg]  [12E92250]CPictureObject Create
+23:13:59.532 [Msg]  [12E92250]CPictureObject Destroy
+23:13:59.536 [Msg]  [12E92250]CPictureObject Delete
+23:13:59.536 [Msg]  [12EBB540]CStaticBox Destroy
+23:13:59.541 [Msg]  [12EBB540]CStaticBox Delete
+23:13:59.542 [Msg]  [0825FB10]CScreenCropObject Destroy
+23:13:59.555 [Msg]  [0825FB10]CScreenCropObject Delete
+23:13:59.792 [Msg]  Video Redord ...
+23:13:59.792 [Msg]  Full Screen
+23:13:59.792 [Msg]  Rect:{0x0-1920x1080}(1920x1080)
+23:13:59.792 [Msg]  Video:bStream=1, CodecType=0, FrameRate=24, Quality=4
+23:13:59.792 [Msg]  Audio: bRender=1, bCapture=1
+23:13:59.792 [Msg]  Mouse: Flag=0x11
+23:13:59.792 [Msg]  ShowRecordingBox=0
+23:13:59.792 [Msg]  [12F622F8]CScreenRecoderObject Create
+23:13:59.914 [Msg]  Hook mouse ...
+23:13:59.974 [Msg]  Use Gdi capture
+23:13:59.974 [Dbg]  [0846E4A0]Call:CAudioStream::CAudioStream
+23:13:59.974 [Dbg]  [135EF8C0]Call:CAudioSource::CAudioSource
+23:13:59.974 [Msg]  eRender
+23:13:59.976 [Msg]  Render Device:Speakers (Realtek(R) Audio)
+23:13:59.976 [Msg]  Render Device Format:FormatTag=Ext(IEEE_FLOAT), 48000 Hz, 2 Channels, 32 Bits; AvgBytesPerSec=384000, BlockAlign=8, Extra size=22, SubFormat=3, wValidBitsPerSample=32,dwChannelMask=0x3
+23:13:59.988 [Dbg]  [00FF49B8]Call:CAudioSource::CAudioSource
+23:13:59.988 [Msg]  Capture
+23:13:59.991 [Msg]  Capture Device:Microphone (Realtek(R) Audio)
+23:13:59.991 [Msg]  Capture Device Format:FormatTag=Ext(IEEE_FLOAT), 48000 Hz, 2 Channels, 32 Bits; AvgBytesPerSec=384000, BlockAlign=8, Extra size=22, SubFormat=3, wValidBitsPerSample=32,dwChannelMask=0x3
+23:14:00.008 [ERR]  Failed(0x80070005) to initialize audio client
+23:14:00.008 [ERR]  Failed(0x80070005) in m_pSources[i]->Initialize((AudioDeviceType)i, i == 1 ? g_Recording->szWaveInFile : g_Recording->szWaveOutFile), FILE:e:\screencast\screencast\audiostream.cpp, LINE:257
+23:14:00.008 [ERR]  Failed(0x80070005) in m_pAudioStream->Initialize(this, __nullptr), FILE:e:\screencast\screencast\screencapture.cpp, LINE:350
+23:14:00.008 [ERR]  Failed(0x80070005) to Initialize recorder, delete...
+23:14:00.008 [Msg]  Video WaitForComplete...
+23:14:00.018 [Msg]  Mouse WaitForComplete ok.
+23:14:00.018 [Msg]  Audio WaitForComplete...
+23:14:00.018 [Msg]  Audio WaitForComplete ok.
+23:14:00.043 [Msg]  Screen capture duration=0(0s)
+23:14:00.043 [Msg]  Audio capture duration=0(0s)
+23:14:00.043 [Msg]  Wave out duration=0(0s)
+23:14:00.043 [Msg]  Tick duation=6838746
+23:14:00.043 [Msg]  ~CWmvWriter
+23:14:00.043 [Dbg]  [0846E4A0]Call:CAudioStream::~CAudioStream
+23:14:00.043 [Dbg]  [135EF8C0]Call:CAudioSource::~CAudioSource
+23:14:00.045 [Dbg]  [00FF49B8]Call:CAudioSource::~CAudioSource
+23:14:00.045 [Msg]  [12F622F8]CScreenRecoderObject Delete
+23:14:08.356 [Msg]  Screen Crop ...
+23:14:08.356 [Msg]  [082603A8]CScreenCropObject Create
+23:15:16.610 [Msg]  Delete Captured, bDelete=1
+23:15:16.610 [Msg]  Remove temporary file:C:\Users\Sotoon\AppData\Local\Temp\Screen Recorder\ScreenCapture.wmv
+23:15:16.611 [Msg]  Remove temporary file:C:\Users\Sotoon\AppData\Local\Temp\Screen Recorder\Speaker.wav
+23:15:16.611 [Msg]  Remove temporary file:C:\Users\Sotoon\AppData\Local\Temp\Screen Recorder\AudioCapture.wav
+23:15:16.611 [ERR]  Failed(2) to DeleteFile:C:\Users\Sotoon\AppData\Local\Temp\Screen Recorder\AudioCapture.wav
+23:15:16.612 [Msg]  Delete temporary file from:C:\Users\Sotoon\AppData\Local\Temp\Screen Recorder
+23:15:16.628 [Msg]  Static box ...
+23:15:16.628 [Msg]  [137E8AE8]CStaticBox Create
+23:15:16.642 [Msg]  [134D80E8]CPictureObject Create
+23:15:20.138 [Msg]  [134D80E8]CPictureObject Destroy
+23:15:20.142 [Msg]  [134D80E8]CPictureObject Delete
+23:15:20.142 [Msg]  [137E8AE8]CStaticBox Destroy
+23:15:20.152 [Msg]  [137E8AE8]CStaticBox Delete
+23:15:20.152 [Msg]  [082603A8]CScreenCropObject Destroy
+23:15:20.157 [Msg]  [082603A8]CScreenCropObject Delete
+23:15:20.316 [Msg]  Video Redord ...
+23:15:20.316 [Msg]  Full Screen
+23:15:20.316 [Msg]  Rect:{0x0-1920x1080}(1920x1080)
+23:15:20.316 [Msg]  Video:bStream=1, CodecType=0, FrameRate=24, Quality=4
+23:15:20.316 [Msg]  Audio: bRender=1, bCapture=1
+23:15:20.316 [Msg]  Mouse: Flag=0x11
+23:15:20.316 [Msg]  ShowRecordingBox=0
+23:15:20.316 [Msg]  [12F661F8]CScreenRecoderObject Create
+23:15:20.497 [Msg]  Hook mouse ...
+23:15:20.528 [Msg]  Use Gdi capture
+23:15:20.528 [Dbg]  [09A0ED88]Call:CAudioStream::CAudioStream
+23:15:20.528 [Dbg]  [0859D8E0]Call:CAudioSource::CAudioSource
+23:15:20.528 [Msg]  eRender
+23:15:20.529 [Msg]  Render Device:Speakers (Realtek(R) Audio)
+23:15:20.529 [Msg]  Render Device Format:FormatTag=Ext(IEEE_FLOAT), 48000 Hz, 2 Channels, 32 Bits; AvgBytesPerSec=384000, BlockAlign=8, Extra size=22, SubFormat=3, wValidBitsPerSample=32,dwChannelMask=0x3
+23:15:20.536 [Dbg]  [13175948]Call:CAudioSource::CAudioSource
+23:15:20.536 [Msg]  Capture
+23:15:20.538 [Msg]  Capture Device:Microphone (Realtek(R) Audio)
+23:15:20.538 [Msg]  Capture Device Format:FormatTag=Ext(IEEE_FLOAT), 48000 Hz, 2 Channels, 32 Bits; AvgBytesPerSec=384000, BlockAlign=8, Extra size=22, SubFormat=3, wValidBitsPerSample=32,dwChannelMask=0x3
+23:15:20.540 [ERR]  Failed(0x80070005) to initialize audio client
+23:15:20.540 [ERR]  Failed(0x80070005) in m_pSources[i]->Initialize((AudioDeviceType)i, i == 1 ? g_Recording->szWaveInFile : g_Recording->szWaveOutFile), FILE:e:\screencast\screencast\audiostream.cpp, LINE:257
+23:15:20.540 [ERR]  Failed(0x80070005) in m_pAudioStream->Initialize(this, __nullptr), FILE:e:\screencast\screencast\screencapture.cpp, LINE:350
+23:15:20.540 [ERR]  Failed(0x80070005) to Initialize recorder, delete...
+23:15:20.540 [Msg]  Video WaitForComplete...
+23:15:20.554 [Msg]  Mouse WaitForComplete ok.
+23:15:20.554 [Msg]  Audio WaitForComplete...
+23:15:20.554 [Msg]  Audio WaitForComplete ok.
+23:15:20.585 [Msg]  Screen capture duration=0(0s)
+23:15:20.585 [Msg]  Audio capture duration=0(0s)
+23:15:20.585 [Msg]  Wave out duration=0(0s)
+23:15:20.585 [Msg]  Tick duation=6919289
+23:15:20.585 [Msg]  ~CWmvWriter
+23:15:20.586 [Dbg]  [09A0ED88]Call:CAudioStream::~CAudioStream
+23:15:20.586 [Dbg]  [0859D8E0]Call:CAudioSource::~CAudioSource
+23:15:20.604 [Dbg]  [13175948]Call:CAudioSource::~CAudioSource
+23:15:20.604 [Msg]  [12F661F8]CScreenRecoderObject Delete
+23:16:58.453 [Msg]  Screen Crop ...
+23:16:58.453 [Msg]  [09872830]CScreenCropObject Create
+23:23:58.563 [Msg]  [09872830]CScreenCropObject Destroy
+23:23:58.564 [Msg]  [09872830]CScreenCropObject Delete
+23:24:04.504 [Msg]  Gdiplus::Bitmap=1
+23:24:04.504 [Msg]  Gdiplus::Graphics=0
